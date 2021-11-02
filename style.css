@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+}
+a {
+  color: black;
+}
+a:link { 
+text-decoration: none; 
+}
+.row {
+display: flex; 
+flex: 1; 
+flex-direction: row;
+}
+.column {
+display: flex; 
+flex: 1; 
+flex-direction: column;
+}

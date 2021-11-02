@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div
+      class="row"
+      style="flex :10; background-color: snow;">
+      <div 
+        class="row" 
+        style="flex:3; height: 50%; width: 30%; background-color:rgba(46, 12, 241, 0.493);"
+        object-fit = scale-down;>
+        
+         <img 
+          class="scale-down" src="LOL.jpg" 
+         
+          onclick="nav('https://www.leagueoflegends.com/ko-kr/')">
+          
+          
+          <a style="margin: 12px 0px 0px 45%;"href="/router1.html" >랭크게임</a>
+          <a style="margin: 12px 0px 0px 45%;" href="/router2.html">프로리그</a>
+          
+          
+       
+        <div 
+         class="row" 
+         style="flex:7; height: 50%; width: 30%; background-color: rgb(223, 11, 11);"
+         object-fit = scale-down;>
+         <img 
+          class="scale-down;"
+          src="YSO.jpg">
+        </div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<style>
+  @import url('/style.css');
+</style>
+
+<script>
+  function nav (link) {
+    window.location.href = link
+  }
+</script>
